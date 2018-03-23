@@ -13,5 +13,42 @@ export default {
     lightBlue,
     midBlue,
     greyBlue, 
-    darkGreyBlue
+    darkGreyBlue,
+    container: {
+        padding: 5,
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        backgroundColor: '#F4FDFF'
+    },
+    recipeList: {
+        marginTop: 14,
+        alignSelf: 'stretch',
+        flex: 1,
+        flexDirection: 'row'
+    },
+    recipeRow: {
+        // flex: 1,
+        margin: 5,
+        width: '46%', 
+        // flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#fff',
+        padding:3,
+        borderRadius: 3
+    },
+    recipeAllTitle: {
+        // paddingLeft: 10,
+        flex:1,
+        // width: '100%',
+        fontSize: 15, 
+    },
+    recipeAllImage: {
+        width: '100%',
+        height: 100,
+        // flex: 1
+    }
+    
 }
